@@ -10,6 +10,16 @@ namespace DaysOfWeek
     {
         static void Main(string[] args)
         {
+            string[] daysOfWeek =
+            {
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            };
         }
     }
 }
