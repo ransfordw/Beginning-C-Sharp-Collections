@@ -20,6 +20,17 @@ namespace DaysOfWeek
                 "Saturday",
                 "Sunday"
             };
+
+            foreach (var day in daysOfWeek)
+               // Console.WriteLine(day);
+
+            Console.Write($"Which day do you want to display?\n(For Example: Monday = 1) > ");
+            var daySelection = int.Parse(Console.ReadLine());
+
+            var chosenDay = daysOfWeek[daySelection - 1];
+            Console.WriteLine($"That day is {chosenDay}");
+
+            Console.ReadLine();
         }
     }
 }
