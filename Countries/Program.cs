@@ -16,6 +16,12 @@ namespace Countries
             var countries = reader.ReadFirstNCountries(10);
             var allCountries = reader.ReadAllCountries();
 
+            Country liliput = new Country("Lilliput", "LIL", "Somewhere", 200000);
+            int liliputIndex = allCountries.FindIndex(x=>x.Population <2000000);
+
+            allCountries.Insert(liliputIndex, liliput);
+            allCountries.RemoveAt(liliputIndex);
+
             foreach(var country in countries)
                 Console.WriteLine("{0,6} {1,15}",$"{country.Population}: ",country.Name);
 
