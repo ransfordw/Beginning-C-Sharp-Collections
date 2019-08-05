@@ -14,13 +14,14 @@ namespace DaysOfWeek
             {
                 "Monday",
                 "Tuesday",
-                "Wednesday",
+                "Wessday",
                 "Thursday",
                 "Friday",
                 "Saturday",
                 "Sunday"
             };
 
+            daysOfWeek[2] = "Wednesday";
             foreach (var day in daysOfWeek)
                // Console.WriteLine(day);
 
