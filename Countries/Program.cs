@@ -14,10 +14,13 @@ namespace Countries
             var reader = new CsvReader(filePath);
 
             var countries = reader.ReadFirstNCountries(10);
-            
+            var allCountries = reader.ReadAllCountries();
+
             foreach(var country in countries)
                 Console.WriteLine("{0,6} {1,15}",$"{country.Population}: ",country.Name);
 
+            foreach(var country in allCountries)
+                Console.WriteLine("{0,6} {1,15}", $"{country.Population}: ", country.Name);
 
             Console.ReadKey();
         }
