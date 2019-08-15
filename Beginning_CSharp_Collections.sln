@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Countries", "Countries\Coun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaysOfWeekList", "DaysOfWeekList\DaysOfWeekList.csproj", "{88BD7023-24F7-4113-9CD4-4BB4ADBC5096}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionarySnippets", "DictionarySnippets\DictionarySnippets.csproj", "{59CAFB57-53B0-43C5-B372-01750434DE21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{88BD7023-24F7-4113-9CD4-4BB4ADBC5096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88BD7023-24F7-4113-9CD4-4BB4ADBC5096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88BD7023-24F7-4113-9CD4-4BB4ADBC5096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CAFB57-53B0-43C5-B372-01750434DE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CAFB57-53B0-43C5-B372-01750434DE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CAFB57-53B0-43C5-B372-01750434DE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CAFB57-53B0-43C5-B372-01750434DE21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
